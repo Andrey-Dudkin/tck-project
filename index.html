@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТСК инженерные сети</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_content">
+                <a href="#" class="logo_link">
+                    <img src="./images/logo.png" alt="Лого сайта">
+                </a>
+                <nav class="nav">
+                    <ul class="menu_list">
+                        <li class="menu_item">
+                            <a href="#about_company" class="menu_link">О компании</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#products" class="menu_link">Продукция</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#delivery" class="menu_link">Доставка</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#our_partners" class="menu_link">Партнеры</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#contacts" class="menu_link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="contacts_header">
+                    <div class="phone">
+                        <img src="./icons/icon-phone.png" alt="Иконка телефлна" class="icon_phone">
+                        <p class="phone_text">+7 777 011 03 03</p>
+                    </div>
+                    <div class="whatsapp">
+                        <img src="./icons/icon-whatsapp.png" alt="Иконка WhatAapp" class="icon_whatsapp">
+                        <p class="whatsapp_text">+7 777 011 12 10</p>
+                    </div>
+                </div>
+            </div>
+            <div class="burger_menu">
+                <button class="burger_menu_btn">
+                    <span class="burger_menu_icon"></span>
+                </button>
+            </div>
+            <div class="header_container_mobile">
+                <div class="header_content_mobile">
+                    <nav class="nav_mobile">
+                        <ul class="menu_list">
+                            <li class="menu_item">
+                                <a href="#about_company" class="menu_link">О компании</a>
+                            </li>
+                            <li class="menu_item">
+                                <a href="#products" class="menu_link">Продукция</a>
+                            </li>
+                            <li class="menu_item">
+                                <a href="#delivery" class="menu_link">Доставка</a>
+                            </li>
+                            <li class="menu_item">
+                                <a href="#our_partners" class="menu_link">Партнеры</a>
+                            </li>
+                            <li class="menu_item">
+                                <a href="#contacts" class="menu_link">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="contacts_header_mobile">
+                        <div class="phone">
+                            <img src="./icons/icon-phone.png" alt="Иконка телефлна" class="icon_phone">
+                            <p class="phone_text">+7 777 011 03 03</p>
+                        </div>
+                        <div class="whatsapp">
+                            <img src="./icons/icon-whatsapp.png" alt="Иконка WhatAapp" class="icon_whatsapp">
+                            <p class="whatsapp_text">+7 777 011 12 10</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="first_screen">
+            <div class="first_screen_bg">
+                <div class="container">
+                    <div class="first_screen_container">
+                        <div class="first_screen_text">
+                            <h1 class="first_screen_title">Продажа сантехнического инженерного оборудования</h1>
+                            <button type="button" class="btn first_screen_btn popup_open">
+                                Оставить заявку
+                            </button>
+                        </div>
+                        <img src="./images/first-screen-image.png" alt="Трубы" class="first_screen_image">
+                    </div>
+                </div>
+            </div>
+            <div class="popup popup_one hiden">
+                <div class="container">
+                    <div class="popup_container">
+                        <div class="popup_top_content">
+                            <h2 class="popup_title">Заполните форму <br>
+                                и мы свяжемся с вами</h2>
+                        </div>
+                        <div class="forma">
+                            <form action="#" class="form" id="form">
+                                <div class="container_inputs">
+                                    <div class="box_element_form">
+                                        <input type="text" id="name" placeholder="Ваше имя" name="name" class="form_element form_input">
+                                    </div>
+                                    <div class="box_element_form">
+                                        <input type="tel" id="phone" placeholder="Ваш телефон" name="phone" class="form_element form_input">
+                                    </div>
+                                    <div class="box_element_form">
+                                        <input type="email" id="email" placeholder="E-mail" name="email" class="form_element form_input">
+                                    </div>
+                                    <div class="box_element_form">
+                                        <textarea id="message" placeholder="Комментарий" class="form_element form_message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="container_checkbox">
+                                    <div class="box_element_form">
+                                        <label class="checkbox_label">
+                                            <input
+                                            type="checkbox"
+                                            id="checkbox"
+                                            class="checkbox_input"/>
+                                            <span class="my_checkbox"></span>
+                                            Я согласен с политикой конфиденциальности
+                                        </label>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn">
+                                    Оставить заявку
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popup popup_second hiden">
+                <div class="container">
+                    <div class="popup_container">
+                        <div class="popup_top_content">
+                            <h2 class="popup_title">Спасибо за ваш <br>заказ</h2>
+                        </div>
+                        <p class="popup_description">
+                            В самое ближайшее время мы свяжемся 
+                            с Вами и обсудим условия нашего сотрудничества!
+                        </p>
+                        <p class="popup_description">
+                            С уважением, <br>
+                            команда ТСК
+                        </p>
+                        <div class="container_btn">
+                            <button type="button" class="btn">
+                                Оставить повторно
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about_company" id="about_company">
+            <div class="container">
+                <h2 class="section_title about_company_title">О компании</h2>
+                <div class="about_company_content">
+                    <img src="./images/about-image.jpg" alt="Фото из секции о компании" class="about_company_image">
+                    <div class="about_company_description">
+                        <p class="about_company_text"> • Более 5 лет успешной стабильной работы на рынке поставки материалов НВК</p>
+                        <p class="about_company_text">• Узкая специализация: Наружный водопровод и канализация </p>
+                        <p class="about_company_text"> • Марки материалов: AVK. Hawle. Jafar FAF. Свободный Сокол</p>
+                        <p class="about_company_text">• Решения под ключ: производство (изготовление материала согласно вашего чертежа на заводах наших партнеров), поставка материалов согласно вашего проекта</p>
+                        <p class="about_company_text"> • Более 100 реализованных объектов в Нур-Султан</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products" id="products">
+            <div class="container">
+                <h2 class="section_title products_title">Продукция</h2>
+                <div class="products_content">
+                    <div class="card_product">
+                        <img src="./images/products-image-01.png" alt="Труба полиэтиновая" class="product_image">
+                        <h3 class="title_card">Труба полиэтиновая</h3>
+                    </div>
+                    <div class="card_product">
+                        <img src="./images/products-image-02.png" alt="ТФиттинги" class="product_image">
+                        <h3 class="title_card">Фиттинги</h3>
+                    </div>
+                    <div class="card_product">
+                        <img src="./images/products-image-03.png" alt="Компрессионные фиттинги" class="product_image">
+                        <h3 class="title_card">Компрессионные фиттинги</h3>
+                    </div>
+                    <div class="card_product">
+                        <img src="./images/products-image-04.png" alt="Запорная арматура" class="product_image">
+                        <h3 class="title_card">Запорная арматура</h3>
+                    </div>
+                    <div class="card_product">
+                        <img src="./images/products-image-05.png" alt="Полиэтиленовые фиттинги" class="product_image">
+                        <h3 class="title_card">Полиэтиленовые фиттинги</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="delivery" id="delivery">
+            <div class="container">
+                <h2 class="delivery_title">Доставка</h2>
+                <div class="delivery_content">
+                    <h3 class="delivery_inner_title">
+                        Осуществляем два вида доставки:
+                    </h3>
+                    <p class="delivery_inner_text">ТСК Трубы: Доставка до клиента</p>
+                    <p class="delivery_inner_text">ТСК Трубы: Доставка до склада заказчика</p>
+                </div>
+                <div class="delivery_btn">
+                    <button type="button" class="btn popup_open">
+                        Оставить заявку
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="our_partners" id="our_partners">
+            <div class="container">
+                <h2 class="section_title our_partners_title">Наши партнеры</h2>
+                <div class="our_partners_brands">
+                    <img src="./images/our-partners-logo-01.png" alt="Лого наших партнеров" class="brand_logo_image">
+                    <img src="./images/our-partners-logo-02.png" alt="Лого наших партнеров" class="brand_logo_image">
+                    <img src="./images/our-partners-logo-03.png" alt="Лого наших партнеров" class="brand_logo_image">
+                    <img src="./images/our-partners-logo-04.png" alt="Лого наших партнеров" class="brand_logo_image">
+                </div>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <div class="contacts_container">
+                    <div class="contacts_info">
+                        <h2 class="contacts_title">Контакты</h2>
+                        <div class="contacts_info_inner">
+                            <p class="address_text">г. Нур-Султан</p>
+                            <p class="address_text">Улица 23-16</p>
+                            <p class="address_text">Зд. 39-117</p>
+                            <div class="contacts_nambers">
+                                <div class="phone">
+                                    <img src="./icons/icon-phone.png" alt="Иконка телефлна" class="icon_phone">
+                                    <p class="phone_text">+7 777 011 03 03</p>
+                                </div>
+                                <div class="whatsapp">
+                                    <img src="./icons/icon-whatsapp.png" alt="Иконка WhatAapp" class="icon_whatsapp">
+                                    <p class="whatsapp_text">+7 777 011 12 10</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="btn popup_open">
+                            Оставить заявку
+                        </button>
+                    </div>
+                    <img class="map" src="./images/map.png" alt="Карта">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <nav class="nav_footer">
+                <ul class="menu_list menu_list_footer">
+                    <li class="menu_item">
+                        <a href="#about_company" class="menu_link">О компании</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#products" class="menu_link">Продукция</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#delivery" class="menu_link">Доставка</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#our_partners" class="menu_link">Партнеры</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#contacts" class="menu_link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="./js/just-validate.min.js"></script>
+    <script src="./js/inputmask.min.js"></script>
+    <script src="./js/validation.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

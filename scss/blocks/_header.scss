@@ -1,0 +1,46 @@
+// *header
+.header{
+    padding: 42px 0 23px;
+}
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 15px;
+}
+.logo_link{
+    outline: none;
+}
+.menu_list{
+    display: flex;
+    column-gap: 38px;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    .menu_link{
+        outline: none;
+        font-weight: 500;
+        color: var(--main-color);
+        transition: color 0.2s ease-in;
+        &:hover{
+            color: var(--accent-color);
+        }
+        &:focus{
+            color: var(--accent-color);
+            border: solid 2px var(--accent-color);
+        }
+    }
+}
+.contacts_header{
+    display: flex;
+    flex-direction: column;
+    .phone{
+        display: flex;
+        column-gap: 15px;
+    }
+    .whatsapp{
+        display: flex;
+    }
+}
+.burger_menu,.header_content_mobile{
+    display: none;
+}

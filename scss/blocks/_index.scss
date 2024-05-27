@@ -1,0 +1,170 @@
+// * first screen
+.first_screen{
+    position: relative;
+
+}
+.first_screen_bg{
+    width: 100%;
+    min-height: 751px;
+    background: url("../images/first-screen-bg.jpg") no-repeat  center / cover;
+}
+.first_screen_container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    padding-top: 169px;
+}
+.first_screen_title{
+    font-weight: 700;
+    font-size: clamp(25px,5vw,48px);
+    color: var(--second-color);
+    max-width: 775px;
+    margin-bottom: 44px;
+}
+.first_screen_image{
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+// *about company
+.about_company{
+    padding-bottom: 122px;
+}
+.about_company_title{
+    margin-bottom: 56px;
+}
+.about_company_content{
+    display: flex;
+    column-gap: 70px;
+    flex-wrap: wrap;
+    row-gap: 15px;
+}
+.about_company_text{
+    font-weight: 500;
+    max-width: 645px;
+}
+
+// *products
+.products{
+    padding-bottom: 200px;
+}
+.products_title{
+    margin-bottom: 65px;
+}
+.products_content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 15px;
+}
+.card_product{
+    width: 210px;
+    min-height: 264px;
+    border: 1px solid var(--main-color);
+    background-color: var(--second-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .product_image{
+        display: block;
+        margin: 0 auto;
+    }
+    .title_card{
+        font-weight: 600;
+        text-align: center;
+    }
+}
+
+// *delivery
+.delivery{
+    width: 100%;
+    min-height: 685px;
+    background: url("../images/delivery-bg.jpg") no-repeat center / cover;
+    padding-top: 82px;
+}
+.delivery_title{
+    font-weight: 600;
+    font-size: clamp(25px,5vw,48px);
+    color: var(--second-color);
+    text-align: center;
+    margin-bottom: 36px;
+}
+.delivery_content{
+    color: var(--second-color);
+    max-width: 560px;
+    height: 297px;
+    border: 3px solid var(--second-color);
+    margin: 0 auto;
+    margin-bottom: 90px;
+    .delivery_inner_title{
+        font-weight: 600;
+        font-size: 26px;
+        text-align: center;
+        padding-top: 54px;
+        margin-bottom: 58px;
+    }
+    .delivery_inner_text{
+        font-size: 18px;
+        margin-left: 33px;
+    }
+}
+.delivery_btn{
+    text-align: center;
+}
+
+// *our partners
+.our_partners{
+    padding-top: 200px;
+    padding-bottom: 229px;
+}
+.our_partners_title{
+    margin-bottom: 80px;
+}
+.our_partners_brands{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 60px;
+}
+
+
+// *contacts
+.contacts{
+    padding-bottom: 101px;
+}
+.contacts_container{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 205px;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    margin-bottom: 68px;
+}
+.contacts_title{
+    font-weight: 600;
+    font-size: clamp(25px,5vw,48px);
+    color: var(--main-color);
+    margin-bottom: 42px;
+}
+.contacts_info_inner{
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+    margin-bottom: 90px;
+    .address_text{
+        font-weight: 500;
+    }
+}
+.contacts_nambers{
+    .phone,
+    .whatsapp{
+        display: flex;
+    }
+    .phone{
+        column-gap: 15px;
+    }
+}
